@@ -1,7 +1,10 @@
 <html>
 
 <head>
-    <title>Dylan O'Dell - Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dylan O'Dell - Home</title>
     <script type="text/javascript">
         function scrambleIt(b, a) {
             var c = "";
@@ -9,27 +12,33 @@
         }
     </script>
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" type="image/png" href="images/DO.logo.png">
 </head>
 
-<body style="text-align: center;">
-    <h3>Hi, I'm Dylan O'Dell</h3>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html"><img src="images/DO.logo.png" alt="icon" height="80vw" width="80vw"></a>
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        </a>
+    </div>
 
-    <p>a Physics student at The University of Western Australia, set to graduate in 2026.
-        This website is currently under construction, but check back soon!</p>
-    <p>My interests lie primarly in experimental and computational physics. I've also taken up additional studies in
-        pure/applied mathematics, statistics, and computer/data science.</p>
-    <p>If you'd like to contact me, my information can be found below:</p>
-    <ul{ text-align: center; list-style-position: inside; }>
-        <li>For academic/research related contacts, I can be reached at my student email:
-            <u>
-                <script type="text/javascript">scrambleIt("student.uwa.edu.au", "24313605");</script>
-            </u>
-        </li>
-        <li>For any other contacts, I can be reached at my personal email:
-            <script type="text/javascript">scrambleIt("gmail.com", "dylanjodell5");</script>
-        </li>
-        </ul>
+    <div style="color: rgb(255, 255, 255); font-family: Lucida Console; margin-top: 15vw; margin-left: 15vw;">
+        <p style="font-size: 65;">
+            <b>Hi, I'm Dylan...</b>
+        </p>
+        <p style="font-size: 30;display:inline-block; background-color: white; color: black;">
+            ...Physics, Mathematics, and More.
+        </p>
+    </div>
 
+    <div id="copyright" class="footer">
+        <p style="margin-left: 1vw;"><a href="index.html">Home</a> | <a href="about.html">About</a> | <a
+                href="Projects.html">Projects</a> | <a href="contact.html">Contact</a></p>
+        <p style="margin-right: 1vw;">Copyright © 2024 Dylan O'Dell. All Rights Reserved.</p>
+    </div>
 </body>
 
 </html>
