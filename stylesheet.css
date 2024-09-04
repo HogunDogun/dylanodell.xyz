@@ -14,10 +14,10 @@ body {
     color: #f2f2f2;
     font-family: "Lucida Console";
     text-align: center;
-    padding: 0 20px;
-    line-height: 80px;
+    padding: 0 2em;
+    line-height: 50em;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1em;
 }
 
 /* Change the color of links on hover */
@@ -36,6 +36,8 @@ a {
     color: inherit;
 }
 
+.icon {}
+
 .footer {
     position: fixed;
     left: 0;
@@ -53,12 +55,19 @@ a {
 
 /* Small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+
+
     .topnav a {
         float: none;
         display: block;
         text-align: left;
         padding: 10px;
         line-height: normal;
+    }
+
+    .icon {
+        height: auto;
+        width: auto;
     }
 
     .footer {
@@ -91,6 +100,11 @@ a {
         text-align: center;
         padding: 0 20px;
         line-height: 80px;
+    }
+
+    .icon {
+        height: 80px;
+        width: 80px;
     }
 
     .footer {
