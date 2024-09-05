@@ -101,9 +101,9 @@ a {
 
 .contact {
     color: rgb(255, 255, 255);
-    position: fixed;
-    top: 25%;
-    right: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vw;
     font-family: 'lucida console';
     justify-content: space-between;
     overflow-wrap: break-word;
