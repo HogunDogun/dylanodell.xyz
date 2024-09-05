@@ -96,7 +96,23 @@ a {
     padding: 1em;
     max-width: 35em;
     border-width: 0.25em;
+    border-color: white;
+}
 
+.contact {
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 25%;
+    right: 10%;
+    font-family: 'lucida console';
+    justify-content: space-between;
+    overflow-wrap: break-word;
+    border-radius: 1em;
+    background: #444444;
+    opacity: 0.75;
+    padding: 1em;
+    max-width: 50em;
+    margin: auto;
     border-color: white;
 }
 
